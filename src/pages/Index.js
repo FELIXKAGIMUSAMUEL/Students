@@ -55,19 +55,19 @@ function Index(){
 
           <li>
             <a href="#" className="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
+            <i className="fi fi-brands-facebook"></i>
             </a>
           </li>
 
           <li>
             <a href="#" className="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+            <i className="fi fi-brands-twitter-alt"></i>
             </a>
           </li>
 
           <li>
             <a href="#" className="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+            <i className="fi fi-brands-instagram"></i>
             </a>
           </li>
 
@@ -143,7 +143,7 @@ function Index(){
           </p>
 
           <div className="btn-group">
-            <button className="btn btn-primary">Learn more</button>
+            {/* <button className="btn btn-primary">Learn more</button> */}
 
             <button className="btn btn-secondary">Book now</button>
           </div>
@@ -207,7 +207,7 @@ function Index(){
       <section className="location" id="location">
         <div className="container">
 
-          <p className="section-subtitle">Uncover place</p>
+          <p className="section-subtitle">Uncover places</p>
 
           <h2 className="h2 section-title">Popular Locations</h2>
 
@@ -458,7 +458,7 @@ function Index(){
               <div className="package-card">
 
                 <figure className="card-banner">
-                  <img src="assets/images/olympia1.jpeg" alt="Olympia Hostel" loading="lazy"/>
+                  <img src="assets/images/olympia.jpg" alt="Olympia Hostel" loading="lazy"/>
                 </figure>
 
                 <div className="card-content">
@@ -510,7 +510,7 @@ function Index(){
                   <p className="price">
                     </p>
 
-                  <button className="btn btn-secondary">Book Now</button>
+                  <button className="btn btn-secondary">Check it Out</button>
 
                 </div>
 
@@ -521,7 +521,7 @@ function Index(){
               <div className="package-card">
 
                 <figure className="card-banner">
-                  <img src="assets/images/packege-1.jpg" alt="St. Juliana Hostel" loading="lazy"/>
+                  <img src="assets/images/juliana.jpg" alt="St. Juliana Hostel" loading="lazy"/>
                 </figure>
 
                 <div className="card-content">
@@ -529,11 +529,11 @@ function Index(){
                   <h3 className="h3 card-title">St. Juliana Hostel</h3>
 
                   <p className="card-text">
-                  Shs. 1.9m - A single room
+                  Lady Juliana Hostel is located in Makerere-Kikoni, opposite Olympia Hostel. It is a hostel for females only.
 
                   </p>
                   <p className="card-text">
-                  Shs. 1.3m - A double room
+                  
                   
                   </p>
 
@@ -572,7 +572,7 @@ function Index(){
                   <p className="price">
                     </p>
 
-                  <button className="btn btn-secondary">Book Now</button>
+                  <button className="btn btn-secondary">Check it Out</button>
 
                 </div>
 
@@ -583,7 +583,7 @@ function Index(){
               <div className="package-card">
 
                 <figure className="card-banner">
-                  <img src="assets/images/packege-2.jpg" alt="New Nana Hostel" loading="lazy"/>
+                  <img src="assets/images/nana.jpg" alt="New Nana Hostel" loading="lazy"/>
                 </figure>
 
                 <div className="card-content">
@@ -591,15 +591,15 @@ function Index(){
                   <h3 className="h3 card-title">New Nana Hostel</h3>
 
                   <p className="card-text">
-                  Shs. 1.8m - A single room
+                  New Nana Hostel is located in Makerere-Kagugube. It is a very affordable and unique hostel.
 
                   </p>
                   <p className="card-text">
-                  Shs. 1.1m - A double room
+                 
                   
                   </p>
                   <p className="card-text">
-                  Shs. 0.9m - A triple/quadruple room
+                 
 
                   </p>
 
@@ -642,7 +642,7 @@ function Index(){
                     <span></span>
                   </p>
 
-                  <button className="btn btn-secondary">Book Now</button>
+                  <button className="btn btn-secondary">Check it Out</button>
 
                 </div>
 
@@ -653,7 +653,7 @@ function Index(){
               <div className="package-card">
 
                 <figure className="card-banner">
-                  <img src="assets/images/packege-3.jpg" alt="Aryan Hostel" loading="lazy"/>
+                  <img src="assets/images/aryan.jpg" alt="Aryan Hostel" loading="lazy"/>
                 </figure>
 
                 <div className="card-content">
@@ -661,11 +661,11 @@ function Index(){
                   <h3 className="h3 card-title">Aryan Hostel</h3>
 
                   <p className="card-text">
-                  Shs. 1.8m - A single room
+                  Aryan Hostel is located in Wandegey-Katanga. It is one of the best hostels in the area with afforda prices.
 
                   </p>
                   <p className="card-text">
-                  Shs. 1.1m - A double room
+                  
                   
                   </p>
 
@@ -706,7 +706,7 @@ function Index(){
                     <span></span>
                   </p>
 
-                  <button className="btn btn-secondary">Book Now</button>
+                  <button className="btn btn-secondary">Check it Out</button>
 
                 </div>
 
@@ -822,9 +822,9 @@ function Index(){
 
         <div className="footer-brand">
 
-          <a href="#" className="logo">
-            <img src="assets/images/logo.svg" alt="Tourly logo"/>
-          </a>
+          {/* <a href="#" className="logo">
+            <img src="assets/images/" alt="Mak logo"/>
+          </a> */}
 
           <p className="footer-text">
             HostelEase | Makerere University is run by the Office of the Dean of Students, Makerere University. This platform has been set up and updated by the Directorate of ICT Support (DICTS). For more information, contact us via        
