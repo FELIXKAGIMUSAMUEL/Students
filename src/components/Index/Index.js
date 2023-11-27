@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react'
+// import { Link, useNavigate } from 'react-router-dom';
+
 
 function Index(){
     return(
+      
         <Fragment>
-            
-  {/* <!-- 
-    - #HEADER
-  --> */}
-
+         
+        
   <header className="header" data-header>
 
     <div className="overlay" data-overlay></div>
@@ -113,8 +113,10 @@ function Index(){
 
         </nav>
 
-        <button className="btn btn-primary">Sign In</button>
 
+        
+        <button className="btn btn-primary">Sign In</button>
+        
       </div>
     </div>
 
@@ -910,6 +912,8 @@ function Index(){
     </div>
 
   </footer>
+
+  
 
 
 
