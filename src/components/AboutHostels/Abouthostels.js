@@ -1,4 +1,6 @@
 import React, { Fragment } from 'react'
+import "./Abouthostel.css"
+
 
 function Abouthostels(){
     return(

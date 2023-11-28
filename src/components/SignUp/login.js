@@ -2,13 +2,13 @@ import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom';
 import './signup.css'
 
-function Signup(){
+function Signin(){
     return(
         <Fragment>
             <div className="container1">
             <div className="form-box1">
                 <h1 id="title">
-                    Sign Up
+                    Sign In
                 </h1>
                 <form className='putty'>
                     <div className="input-group1">
@@ -31,8 +31,8 @@ function Signup(){
                         </p>
                     </div>
                     <div className="btn-field1">
-                        <button  type="button" id="signupBtn" className="button">Sign Up</button>
-                        <Link to={'/Signin'}><button type="button" id="signinBtn" className="button">Sign In</button></Link>
+                        <Link to={'/Signup'}><button  className="button" type="button" id="signupBtn">Sign Up</button></Link>
+                        <button type="button" id="signinBtn" className="button">Sign In</button>
                     </div>
                 </form>
 
@@ -66,4 +66,4 @@ function Signup(){
     )
 }
 
-export default Signup;
+export default Signin;
