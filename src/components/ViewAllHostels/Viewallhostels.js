@@ -3,6 +3,19 @@ import { Link } from "react-router-dom";
 import Nana from "./images/nana.jpg"
 import Oly from "./images/olympia.jpg"
 import JJ from "./images/jj.jpg"
+import aryan from "./images/aryan.jpg"
+import juliana from "./images/juliana.jpg"
+import nakiyinji from "./images/nakiyinji.jpg"
+import braetd from "./images/braetdhostel.JPG"
+import kasamba from "./images/kasamba.jpg"
+import helican from "./images/helican.jpg"
+import jb from "./images/jb.jpg"
+import maimood from "./images/maimood.JPG"
+import GOD from "./images/God.jpg"
+import mish from "./images/mish.jpg"
+import nalikka from "./images/nalikka.png"
+import dreamworld from "./images/dreamworld.jpg"
+
 
 function Viewallhostels() {
   return (
@@ -72,7 +85,7 @@ function Viewallhostels() {
                   <p className="price"></p>
                   <p className="price"></p>
 
-                  <Link to={"/display"}>
+                  <Link to={"/Olympia"}>
                     <button className="btn btn-secondary">Check it Out</button>
                   </Link>
                 </div>
@@ -92,7 +105,7 @@ function Viewallhostels() {
                 <div className="card-content">
                   <h3 className="h3 card-title">New Nana Hostel</h3>
 
-                  <p className="card-text">Shs. 1.8m - A single room</p>
+                  <p className="card-text"></p>
                   <p className="card-text">
                     New Nana Hostel is located in Makerere-Kagugube. It is a
                     very affordable and unique hostel.
@@ -136,8 +149,8 @@ function Viewallhostels() {
                     <span></span>
                   </p>
 
-                  <Link to={"/display"}>
-                    <button className="btn btn-secondary">Check it Out</button>
+                  <Link to={"/Nana"}>
+                    <button className="btn btn-secondary">Explore more</button>
                   </Link>
                 </div>
               </div>
@@ -147,7 +160,7 @@ function Viewallhostels() {
               <div className="package-card">
                 <figure className="card-banner">
                   <img
-                    src="assets/images/packege-3.jpg"
+                    src={aryan}
                     alt="Aryan Hostel"
                     loading="lazy"
                   />
@@ -157,7 +170,7 @@ function Viewallhostels() {
                   <h3 className="h3 card-title">Aryan Hostel</h3>
 
                   <p className="card-text">
-                    Aryan Hostel is located in Wandegey-Katanga. It is one of
+                    Aryan Hostel is located in Wandegeya-Katanga. It is one of
                     the best hostels in the area with afforda prices.
                   </p>
                   <p className="card-text"></p>
@@ -200,8 +213,8 @@ function Viewallhostels() {
                     <span></span>
                   </p>
 
-                  <Link to={"/display"}>
-                    <button className="btn btn-secondary">Check it Out</button>
+                  <Link to={"/Aryan"}>
+                    <button className="btn btn-secondary">Devle into it</button>
                   </Link>
                 </div>
               </div>
@@ -261,8 +274,8 @@ function Viewallhostels() {
                   <p className="price"></p>
                   <p className="price"></p>
 
-                  <Link to={"/display"}>
-                    <button className="btn btn-secondary">Check it Out</button>
+                  <Link to={"/JJ"}>
+                    <button className="btn btn-secondary">Look closely</button>
                   </Link>
                 </div>
               </div>
@@ -272,7 +285,7 @@ function Viewallhostels() {
               <div className="package-card">
                 <figure className="card-banner">
                   <img
-                    src="assets/images/packege-1.jpg"
+                    src={juliana}
                     alt="Lady Juliana Hostel"
                     loading="lazy"
                   />
@@ -321,8 +334,10 @@ function Viewallhostels() {
 
                   <p className="price"></p>
                   <p className="price"></p>
-
-                  <button className="btn btn-secondary">Check it out.</button>
+		
+	<Link to={"/Juliana"}>
+                  <button className="btn btn-secondary">View it</button>
+	</Link>
                 </div>
               </div>
             </li>
@@ -331,7 +346,7 @@ function Viewallhostels() {
               <div className="package-card">
                 <figure className="card-banner">
                   <img
-                    src="assets/images/packege-2.jpg"
+                    src={nakiyinji}
                     alt="Nakiyinji Hostel"
                     loading="lazy"
                   />
@@ -384,8 +399,8 @@ function Viewallhostels() {
                     <span></span>
                   </p>
 
-                  <Link to={"/display"}>
-                    <button className="btn btn-secondary">Check it Out</button>
+                  <Link to={"/Nakiyinji"}>
+                    <button className="btn btn-secondary">Give it a try</button>
                   </Link>
                 </div>
               </div>
@@ -395,7 +410,7 @@ function Viewallhostels() {
               <div className="package-card">
                 <figure className="card-banner">
                   <img
-                    src="assets/images/packege-3.jpg"
+                    src={braetd}
                     alt="Braetd Hostel"
                     loading="lazy"
                   />
@@ -448,8 +463,8 @@ function Viewallhostels() {
                     <span></span>
                   </p>
 
-                  <Link to={"/display"}>
-                    <button className="btn btn-secondary">Check it Out</button>
+                  <Link to={"/Braetd"}>
+                    <button className="btn btn-secondary">A quick check</button>
                   </Link>
                 </div>
               </div>
@@ -459,7 +474,7 @@ function Viewallhostels() {
               <div className="package-card">
                 <figure className="card-banner">
                   <img
-                    src="assets/images/packege-1.jpg"
+                    src={kasamba}
                     alt="Kasamba Hostel"
                     loading="lazy"
                   />
@@ -509,8 +524,8 @@ function Viewallhostels() {
                   <p className="price"></p>
                   <p className="price"></p>
 
-                  <Link to={"/display"}>
-                    <button className="btn btn-secondary">Check it Out</button>
+                  <Link to={"/Kasamba"}>
+                    <button className="btn btn-secondary">See through</button>
                   </Link>
                 </div>
               </div>
@@ -520,7 +535,7 @@ function Viewallhostels() {
               <div className="package-card">
                 <figure className="card-banner">
                   <img
-                    src="assets/images/packege-1.jpg"
+                    src={helican}
                     alt="Helican Hostel"
                     loading="lazy"
                   />
@@ -570,8 +585,8 @@ function Viewallhostels() {
                   <p className="price"></p>
                   <p className="price"></p>
 
-                  <Link to={"/display"}>
-                    <button className="btn btn-secondary">Check it Out</button>
+                  <Link to={"/Helican"}>
+                    <button className="btn btn-secondary">Give it a go.</button>
                   </Link>
                 </div>
               </div>
@@ -581,7 +596,7 @@ function Viewallhostels() {
               <div className="package-card">
                 <figure className="card-banner">
                   <img
-                    src="assets/images/packege-2.jpg"
+                    src={jb}
                     alt="JB Hostel"
                     loading="lazy"
                   />
@@ -635,8 +650,8 @@ function Viewallhostels() {
                     <span></span>
                   </p>
 
-                  <Link to={"/display"}>
-                    <button className="btn btn-secondary">Check it Out</button>
+                  <Link to={"/JB"}>
+                    <button className="btn btn-secondary">Look-see</button>
                   </Link>
                 </div>
               </div>
@@ -646,7 +661,7 @@ function Viewallhostels() {
               <div className="package-card">
                 <figure className="card-banner">
                   <img
-                    src="assets/images/packege-3.jpg"
+                    src={maimood}
                     alt="Maimood Hostel"
                     loading="lazy"
                   />
@@ -700,8 +715,8 @@ function Viewallhostels() {
                     <span></span>
                   </p>
 
-                  <Link to={"/display"}>
-                    <button className="btn btn-secondary">Check it Out</button>
+                  <Link to={"/Maimood"}>
+                    <button className="btn btn-secondary">Explore it.</button>
                   </Link>
                 </div>
               </div>
@@ -711,7 +726,7 @@ function Viewallhostels() {
               <div className="package-card">
                 <figure className="card-banner">
                   <img
-                    src="assets/images/packege-1.jpg"
+                    src={GOD}
                     alt="God is Able"
                     loading="lazy"
                   />
@@ -761,8 +776,8 @@ function Viewallhostels() {
                   <p className="price"></p>
                   <p className="price"></p>
 
-                  <Link to={"/display"}>
-                    <button className="btn btn-secondary">Check it Out</button>
+                  <Link to={"/GOD"}>
+                    <button className="btn btn-secondary">Have a gander.</button>
                   </Link>
                 </div>
               </div>
@@ -772,8 +787,8 @@ function Viewallhostels() {
               <div className="package-card">
                 <figure className="card-banner">
                   <img
-                    src="assets/images/packege-1.jpg"
-                    alt="MISH"
+                    src={mish}
+                    alt="mish"
                     loading="lazy"
                   />
                 </figure>
@@ -825,8 +840,8 @@ function Viewallhostels() {
                   <p className="price"></p>
                   <p className="price"></p>
 
-                  <Link to={"/display"}>
-                    <button className="btn btn-secondary">Check it Out</button>
+                  <Link to={"/Mish"}>
+                    <button className="btn btn-secondary">Take a peek</button>
                   </Link>
                 </div>
               </div>
@@ -836,7 +851,7 @@ function Viewallhostels() {
               <div className="package-card">
                 <figure className="card-banner">
                   <img
-                    src="assets/images/packege-2.jpg"
+                    src={nalikka}
                     alt="Nalikka Hostel"
                     loading="lazy"
                   />
@@ -889,8 +904,8 @@ function Viewallhostels() {
                     <span></span>
                   </p>
 
-                  <Link to={"/display"}>
-                    <button className="btn btn-secondary">Check it Out</button>
+                  <Link to={"/Nalikka"}>
+                    <button className="btn btn-secondary">More of it.</button>
                   </Link>
                 </div>
               </div>
@@ -900,7 +915,7 @@ function Viewallhostels() {
               <div className="package-card">
                 <figure className="card-banner">
                   <img
-                    src="assets/images/packege-3.jpg"
+                    src={dreamworld}
                     alt="Dreamworld Hostel"
                     loading="lazy"
                   />
@@ -954,8 +969,8 @@ function Viewallhostels() {
                     <span></span>
                   </p>
 
-                  <Link to={"/display"}>
-                    <button className="btn btn-secondary">Check it Out</button>
+                  <Link to={"/Dreamworld"}>
+                    <button className="btn btn-secondary">See further</button>
                   </Link>
                 </div>
               </div>
@@ -968,9 +983,9 @@ function Viewallhostels() {
         <div className="footer-top">
           <div className="container">
             <div className="footer-brand">
-              <a href="#" className="logo">
+              {/* <a href="#" className="logo">
                 <img src="assets/images/logo.svg" alt="Tourly logo" />
-              </a>
+              </a> */}
 
               <p className="footer-text">
                 HostelEase | Makerere University is run by the Office of the

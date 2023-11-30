@@ -1,0 +1,36 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type='text'],
+  input[type='email'] {
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+
+  .gender{
+    margin-left: 1rem;
+  }
+
+  .gen{
+    display: flex;
+    margin-bottom: 15px;
+  }
+
+  .name{
+    margin-left: 2rem;
+  }
+  .booking-form-container{
+    height: 100vh;
+  }
+

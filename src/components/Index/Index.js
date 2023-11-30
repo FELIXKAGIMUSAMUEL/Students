@@ -493,7 +493,7 @@ function Index() {
                       <p className="price"></p>
                       <p className="price"></p>
 
-                      <Link to={"/display"}>
+                      <Link to={"/Olympia"}>
                         <button className="btn btn-secondary">
                           Check it Out
                         </button>
@@ -513,7 +513,7 @@ function Index() {
                     </figure>
 
                     <div className="card-content">
-                      <h3 className="h3 card-title">St. Juliana Hostel</h3>
+                      <h3 className="h3 card-title">Lady Juliana Hostel</h3>
 
                       <p className="card-text">
                         Lady Juliana Hostel is located in Makerere-Kikoni,
@@ -557,9 +557,9 @@ function Index() {
                       <p className="price"></p>
                       <p className="price"></p>
 
-                      <Link to={"/display"}>
+                      <Link to={"/Juliana"}>
                         <button className="btn btn-secondary">
-                          Check it Out
+                          View it
                         </button>
                       </Link>
                     </div>
@@ -623,9 +623,9 @@ function Index() {
                         <span></span>
                       </p>
 
-                      <Link to={"/display"}>
+                      <Link to={"/Nana"}>
                         <button className="btn btn-secondary">
-                          Check it Out
+                          Explore more
                         </button>
                       </Link>
                     </div>
@@ -689,9 +689,9 @@ function Index() {
                         <span></span>
                       </p>
 
-                      <Link to={"/display"}>
+                      <Link to={"/Aryan"}>
                         <button className="btn btn-secondary">
-                          Check it Out
+                          Delve into it
                         </button>
                       </Link>
                     </div>
@@ -699,7 +699,7 @@ function Index() {
                 </li>
               </ul>
 
-              <Link to={"/details"}>
+              <Link to={"/Hostels"}>
                 <button className="btn btn-primary">View All Hostels</button>
               </Link>
             </div>
