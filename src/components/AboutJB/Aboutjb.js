@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import "./Aboutjb.css"
 import hostel from "./image/jb2.jpg"
+import { Link } from 'react-router-dom'
 
 function Aboutjb(){
     return(
@@ -28,7 +29,7 @@ function Aboutjb(){
 		2. Double room: 1,100,000/=<br/>
 		3. Triple room: 800,000/=
                 </p>
-                <button className="book-now-btn">Book Now</button>
+                <Link to={"/Booking"}><button className="book-now-btn">Book Now</button></Link>
             </div>
         </section>
         </Fragment>

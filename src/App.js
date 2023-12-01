@@ -10,16 +10,17 @@ import AboutGOD from "./components/AboutGOD/AboutGOD"
 import Abouthelican from "./components/AboutHelican/Abouthelican"
 import Aboutjb from "./components/AboutJB/Aboutjb"
 import Aboutjj from "./components/AboutJJ/Aboutjj"
-import Aboutjuliana from "./components/AboutJuliana/Aboutjuliana"
+import Aboutjuliana from "./components/AboutJuliana/Aboutjuliana" 
 import Aboutkasamba from "./components/AboutKasamba/Aboutkasamba"
 import Aboutmaimood from "./components/AboutMaimood/Aboutmaimood"
 import Aboutmish from "./components/AboutMish/Aboutmish"
-import Aboutnakiyinji from "./components/AboutNakiyinji/Aboutnakiyinji"
+import Aboutnakiyinji from "./components/AboutNakiyinji/Aboutnakiyinji" 
 import Aboutnalikka from "./components/AboutNalikka/Aboutnalikka"
 import Aboutnana from "./components/AboutNana/Aboutnana"
 import Aboutolympia from "./components/AboutOlympia/Aboutolympia"
-import Signin from './components/SignUp/login';
-
+import Signin from './components/SignUp/login'
+import BookingForm from './components/booking/pay';
+ 
 function App() {
     return (
         <div className="App">
@@ -44,6 +45,7 @@ function App() {
 						<Route path="/Nalikka" element={<Aboutnalikka/>}/>
 						<Route path="/Dreamworld" element={<Aboutdreamworld/>}/>
                         <Route path="/Signin" element={<Signin/>}/>
+						<Route path="/Booking" element={<BookingForm/>}/>
                     </Routes>
             
         </div>

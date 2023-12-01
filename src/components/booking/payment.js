@@ -7,7 +7,7 @@ import {
   Cash,
   Check,
   Phone,
-} from 'react-bootstrap-icons'; 
+} from 'react-bootstrap-icons';  
 
 const PaymentForm = () => {
   const [paymentMethod, setPaymentMethod] = useState('');
@@ -95,7 +95,7 @@ const PaymentForm = () => {
             />
           </Form.Group>
 
-          <Button variant="primary" onClick={handleConfirmPayment} style={{marginTop: '2rem', backgroundColor: '#ee7724'}}>
+          <Button variant="primary" onClick={handleConfirmPayment} style={{marginTop: '2rem', backgroundColor: 'hsl(214,57%,51%)'}}>
             Confirm Payment
           </Button>
         </Form>

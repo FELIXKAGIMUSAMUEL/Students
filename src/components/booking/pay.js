@@ -6,8 +6,8 @@ import { Form, Button, ProgressBar } from 'react-bootstrap';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import PaymentForm from './payment';
-import Header from '../../components/header/Header';
-
+ 
+ 
 const BookingForm = () => {
   const [formData, setFormData] = useState({
     // Initial form data
@@ -35,21 +35,24 @@ const BookingForm = () => {
   };
 
   const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
+  const { name, value } = e.target;
+  setFormData({
+    ...formData,
+    [name]: value,
+  });
+  console.log(`${name}: ${value}`);
+};
+
+
 
   return (
     <>
-    <Header/>
+    
     <div className="booking-form-container">
       <div>
       <ProgressBar now={progress * 20} 
     //   label={`${progress + 1}. Personal Information`}
-    style={{ marginLeft: '37%', marginRight: '37%', marginTop: '3.5rem', color: '#ee7724'}}
+    style={{ marginLeft: '37%', marginRight: '37%', marginTop: '3.5rem', color: 'hsl(214,57%,51%)'}}
        />
       </div>
       <Form>
@@ -77,18 +80,25 @@ const BookingForm = () => {
               <option value="">Select Gender</option>
               <option value="male">Male</option>
               <option value="female">Female</option>
-              <option value="other">Other</option>
+              {/* <option value="other">Other</option> */}
             </Form.Control>
           </Form.Group>
             <Form.Group controlId="contact">
               <Form.Label>Phone Contact</Form.Label>
-              <Form.Control
+              {/* <Form.Control
                 type="tel"
-                placeholder="0703316559"
+                placeholder="Phone Number"
                 name="contact"
                 value={formData.contactNumber}
                 onChange={handleInputChange}
-              />
+              /> */}
+              <Form.Control
+              type="tel"
+              name="contact"
+              value={formData.emergencyContact}
+              onChange={handleInputChange}
+              placeholder="Enter contact"
+            />
             </Form.Group>
             <Form.Group controlId="email">
               <Form.Label>Email</Form.Label>
@@ -101,7 +111,7 @@ const BookingForm = () => {
               />
             </Form.Group>
             {/* Add other personal information fields */}
-            <Button variant="primary" onClick={handleNextStep} style={{backgroundColor: '#ee7724'}}>
+            <Button variant="primary" onClick={handleNextStep} style={{backgroundColor: 'hsl(214,57%,51%)'}}>
               Next
             </Button>
           </div>
@@ -152,7 +162,7 @@ const BookingForm = () => {
               {`${(formData.specialRequests || '').split(' ').length}/100 words`} {/* Display word count */}
             </small>
           </Form.Group>
-            <Button variant="primary" onClick={handleNextStep} style={{backgroundColor: '#ee7724'}}>
+            <Button variant="primary" onClick={handleNextStep} style={{backgroundColor: 'hsl(214,57%,51%)'}}>
               Next
             </Button>
           </div>
@@ -181,7 +191,7 @@ const BookingForm = () => {
               placeholder="Enter course or program details"
             />
           </Form.Group>
-            <Button variant="primary" onClick={handleNextStep} style={{backgroundColor: '#ee7724'}}>
+            <Button variant="primary" onClick={handleNextStep} style={{backgroundColor: 'hsl(214,57%,51%)'}}>
               Next
             </Button>
           </div>
@@ -221,7 +231,7 @@ const BookingForm = () => {
               placeholder="Enter relationship (e.g., parent, sibling)"
             />
           </Form.Group>
-            <Button variant="primary" onClick={handleNextStep} style={{backgroundColor: '#ee7724'}}>
+            <Button variant="primary" onClick={handleNextStep} style={{backgroundColor: 'hsl(214,57%,51%)'}}>
               Next
             </Button>
           </div>
@@ -289,6 +299,8 @@ const BookingForm = () => {
     </div>
     </>
   );
-};
+        };
 
 export default BookingForm;
+
+        

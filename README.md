@@ -38,5 +38,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Credits
 
-- This project was developed by Mugabi Joseph Charles (https://github.com/jcmugabi).
-- Special thanks to [OpenAI](https://openai.com/) for providing the ChatGPT model used for assistance.
+- This project was developed by Nankunda Natalie, Kahunde Queen Anita, Ahereza Molian, Tayebwa Richie and Kagimu Felix Samuel (https://github.com/FELIXSAMUELKAGIMU).
