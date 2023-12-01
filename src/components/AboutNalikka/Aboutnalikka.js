@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import "./Aboutnalikka.css"
 import hostel from "./image/nalikka.jpg"
-
+import { Link } from 'react-router-dom'
 
 function Aboutnalikka(){
     return(
@@ -29,7 +29,7 @@ function Aboutnalikka(){
 		2. Double room: 900,000/=<br/>
 		
                 </p>
-                <button className="book-now-btn">Book Now</button>
+                <Link to={"/Booking"}><button className="book-now-btn">Book Now</button></Link>
             </div>
         </section>
         </Fragment>
