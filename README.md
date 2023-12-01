@@ -38,4 +38,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Credits
 
-- This project was developed by Nankunda Natalie, Kahunde Queen Anita, Ahereza Molian, Tayebwa Richie and Kagimu Felix Samuel (https://github.com/FELIXSAMUELKAGIMU).
+- This project was developed by Nankunda Natalie, Ahereza Molian, Kahunde Queen Anita, Tayebwa Richie and Kagimu Felix Samuel (https://github.com/FELIXSAMUELKAGIMU).
+Thank you.
