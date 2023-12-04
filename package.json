@@ -1,5 +1,5 @@
 {
-  "name": "booking-app", //I think this can be better like "Hostel Booking App"
+  "name": "booking-app", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,3 +42,4 @@
     ]
   }
 }
+//I think this can be better like "Hostel Booking App"
