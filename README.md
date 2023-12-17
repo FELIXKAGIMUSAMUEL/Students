@@ -16,7 +16,7 @@ This repository contains the source code for the Hostel Booking User Interface, 
 
 ## Usage
 
-- Access the application at `http://localhost:3000` in your web browser.
+- Access the application at `https://makerereuniversityhostelease.netlify.app/` in your web browser.
 - Use the sidebar navigation to switch between different sections of the application.
 
 ## Dependencies

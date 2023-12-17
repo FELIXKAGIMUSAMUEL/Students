@@ -86,11 +86,14 @@ const BookingForm = () => {
             <Form.Group controlId="contact">
               <Form.Label>Phone Contact</Form.Label>
               {/* <Form.Control
+              value={formData.contactNumber}
                 type="tel"
-                placeholder="Phone Number"
                 name="contact"
-                value={formData.contactNumber}
+                
                 onChange={handleInputChange}
+                placeholder="Phone Number"
+                
+                
               /> */}
               <Form.Control
               type="tel"
